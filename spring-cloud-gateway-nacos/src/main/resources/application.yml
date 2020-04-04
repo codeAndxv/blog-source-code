@@ -1,0 +1,8 @@
+server:
+  port: 18071
+#开启端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
